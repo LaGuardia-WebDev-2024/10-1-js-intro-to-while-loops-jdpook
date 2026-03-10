@@ -14,5 +14,10 @@ setup = function() {
   text(x+250, x+250, 20);
   text(x+300, x+300, 20);
   text(x+350, x+350, 20);
+  var x =40;
+  while(x<400){
+    text(x,x,40);
+    x+=50;
+  }
 };
 
